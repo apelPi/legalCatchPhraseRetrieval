@@ -1,0 +1,159 @@
+Paper: Automatic Catchphrase Identification from Legal Court 
+Case Documents 
+  
+Datasets: 
+https://ailaw-lab.github.io/dataset&models.html 
+Saptarshi's Homepage - Datasets & Codes 
+ 
+  
+Resource 
+Link 
+Type 
+Description 
+Remark 
+https://git
+hub.com/
+Exploratio
+n-Lab/IL-
+PCSR 
+Dataset 
+Dataset for joint identification 
+of both relevant precedents 
+(prior case judgements) as 
+well as relevant legal statutes 
+for a given situation (query). 
+While precedent identification 
+and statute identification 
+have long been studied 
+separately, this is the first 
+dataset for addressing both 
+tasks together. 
+Relevant prior 
+cases 
+https://git
+hub.com/
+Law-AI/MI
+LDSum 
+Dataset 
+A novel dataset of 3,122 
+Indian court judgments in 
+English along with their 
+summaries in both English 
+and Hindi, drafted by legal 
+practitioners. Can be used 
+for training/evaluating models 
+for cross-lingual 
+summarization and 
+translation in the legal 
+domain. 
+Summarization 
+https://git
+hub.com/
+Law-AI/do
+cument-si
+milarity 
+Dataset 
+Two datasets for the task of 
+estimating the semantic 
+similarity between two court 
+case judgements, in the 
+range [0, 1]. The datasets 
+contain case document-pairs 
+and a similarity value 
+assigned by Law experts. 
+Similarity 
+between two 
+case 
+judgements 
+https://git
+hub.com/
+Law-AI/su
+mmarizati
+on 
+Dataset 
+Three datasets for 
+summarizing legal case 
+judgements; implementations 
+of several summarization 
+algorithms and pretrained 
+models for summarizing legal 
+case judgements. 
+Summarization 
+https://git
+hub.com/
+amarnam
+arpan/D2
+V-BiGRU-
+CRF 
+Algorithm A supervised algorithm for 
+extracting legal catchphrases 
+from court case judgements. 
+Catchphrase 
+identification 
+https://ze
+nodo.org/
+records/4
+063986#.
+X3dDPMI
+zaUl 
+Dataset 
+Dataset for two tasks -- (1) 
+Identifying relevant prior 
+cases for a given situation, 
+(2) Identifying most relevant 
+statutes for a given situation. 
+The datasets are based on 
+legal documents (cases, 
+statutes) from the Indian 
+judicial system. 
+Relevant prior 
+cases 
+https://ww
+w.isical.ac
+.in/~fire/d
+ata/2017/I
+RLeD/FIR
+E2017-IR
+LeD-track
+-data.zip 
+Dataset 
+For two tasks -- (1) 
+Catchphrase extraction from 
+Indian legal documents, (2) 
+Identifying prior cases 
+relevant to a given case. 
+Catchphrase 
+identification + 
+Relevant prior 
+cases 
+https://git
+hub.com/
+amarnam
+arpan/psl
+egal 
+Algorithm An unsupervised algorithm 
+for extracting legal 
+catchphrases from court 
+case judgements. 
+Catchphrase 
+identification 
+https://git
+hub.com/
+Law-AI/D
+ELSumm 
+Algorithm Implementation of 
+DELSUMM, an unsupervised 
+extractive summarization 
+algorithm for legal case 
+judgements. 
+Summarization 
+  
+  
+  
+Important terms: 
+●​ Precedents: In law, a precedent is a previously decided court 
+case that is used as an authority or guide for deciding 
+subsequent cases with similar facts or legal issues 
+●​ Statutes: In law, a statute is a formal, written enactment passed 
+by a legislative body. 
+ 

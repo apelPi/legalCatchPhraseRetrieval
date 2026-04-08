@@ -1,0 +1,173 @@
+﻿python : Traceback (most 
+recent call last):
+At line:1 char:1
++ python 
+evaluate_catchphrases.py 
+2> error.log
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo         
+     : NotSpecified:     
+(Traceback (most rec    
+ent call last)::Stri    
+ng) [], RemoteExcept    ion
+    + FullyQualifiedErro   
+ rId : NativeCommandE    
+rror
+ 
+  File "C:\Users\adidw\anac
+onda3\Lib\site-packages\nlt
+k\corpus\util.py", line 
+84, in __load
+    root = nltk.data.find(f
+"{self.subdir}/{zip_name}")
+           ^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adidw\anac
+onda3\Lib\site-packages\nlt
+k\data.py", line 583, in 
+find
+    raise LookupError(resou
+rce_not_found)
+LookupError: 
+***************************
+***************************
+****************
+  Resource 
+[93mstopwords[0m not 
+found.
+  Please use the NLTK 
+Downloader to obtain the 
+resource:
+
+  [31m>>> import nltk
+  >>> 
+nltk.download('stopwords')
+  [0m
+  For more information 
+see: https://www.nltk.org/d
+ata.html
+
+  Attempted to load [93mco
+rpora/stopwords.zip/stopwor
+ds/[0m
+
+  Searched in:
+    - 'C:\\Users\\adidw/nlt
+k_data'
+    - 'C:\\Users\\adidw\\an
+aconda3\\nltk_data'
+    - 'C:\\Users\\adidw\\an
+aconda3\\share\\nltk_data'
+    - 'C:\\Users\\adidw\\an
+aconda3\\lib\\nltk_data'
+    - 'C:\\Users\\adidw\\Ap
+pData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+***************************
+***************************
+****************
+
+
+During handling of the 
+above exception, another 
+exception occurred:
+
+Traceback (most recent 
+call last):
+  File "C:\Users\adidw\Docu
+ments\courseStuff\sem8\ireP
+roj\pslegal\evaluate_catchp
+hrases.py", line 31, in 
+<module>
+    pvect.efficient_fit(leg
+al_train_dir, 
+nonlegal_dir, gram='nnp')
+  File "C:\Users\adidw\Docu
+ments\courseStuff\sem8\ireP
+roj\pslegal\pslegal.py", 
+line 1447, in efficient_fit
+    toks = 
+npe.extract(text)
+           
+^^^^^^^^^^^^^^^^^
+  File "C:\Users\adidw\Docu
+ments\courseStuff\sem8\ireP
+roj\pslegal\extract_noun_ph
+rases.py", line 272, in 
+extract
+    legal_stopwords=legal_s
+topwords + 
+stopwords.words('english') 
+## Uncomment if you want 
+to remove stopwords
+                           
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\adidw\anac
+onda3\Lib\site-packages\nlt
+k\corpus\util.py", line 
+121, in __getattr__
+    self.__load()
+  File "C:\Users\adidw\anac
+onda3\Lib\site-packages\nlt
+k\corpus\util.py", line 
+86, in __load
+    raise e
+  File "C:\Users\adidw\anac
+onda3\Lib\site-packages\nlt
+k\corpus\util.py", line 
+81, in __load
+    root = nltk.data.find(f
+"{self.subdir}/{self.__name
+}")
+           ^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^
+  File "C:\Users\adidw\anac
+onda3\Lib\site-packages\nlt
+k\data.py", line 583, in 
+find
+    raise LookupError(resou
+rce_not_found)
+LookupError: 
+***************************
+***************************
+****************
+  Resource 
+[93mstopwords[0m not 
+found.
+  Please use the NLTK 
+Downloader to obtain the 
+resource:
+
+  [31m>>> import nltk
+  >>> 
+nltk.download('stopwords')
+  [0m
+  For more information 
+see: https://www.nltk.org/d
+ata.html
+
+  Attempted to load 
+[93mcorpora/stopwords[0m
+
+  Searched in:
+    - 'C:\\Users\\adidw/nlt
+k_data'
+    - 'C:\\Users\\adidw\\an
+aconda3\\nltk_data'
+    - 'C:\\Users\\adidw\\an
+aconda3\\share\\nltk_data'
+    - 'C:\\Users\\adidw\\an
+aconda3\\lib\\nltk_data'
+    - 'C:\\Users\\adidw\\Ap
+pData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+***************************
+***************************
+****************
+
